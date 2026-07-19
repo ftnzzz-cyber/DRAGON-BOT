@@ -11,7 +11,7 @@ from telegram.ext import (
 )
 
 
-TOKEN = "8851456984:AAEIl9vY72WmYphaAQ1X_7Cs80rXaXWi7Nc"
+TOKEN = "8851456984:AAHON0_Aifp3aUnCtIHDoHfgXbK4Yt-uQCI"
 OMDB_KEY = "6a386ee3"
 
 
@@ -31,7 +31,7 @@ async def movie(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     if not context.args:
         await update.message.reply_text(
-            "🎬 Example:\n/movie Interstellar"
+            "🎬 Example:\n/movie scarface"
         )
         return
 
